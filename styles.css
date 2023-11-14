@@ -1,0 +1,95 @@
+body,
+html {
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: 16px;
+    height: 60%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+   
+        
+       
+    background-repeat: no-repeat;
+    background-position: center;
+   
+}
+
+.video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+    background-position: center;
+
+    z-index: -1;
+}
+
+
+.container {
+
+ justify-content: center;
+ align-items: center;
+ max-width: 600px;
+ width: 100%;
+ border-radius: 8px;
+ text-align: center;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+
+#cityInput {
+    width: 100%;
+    padding: 10px 100px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.procura {
+    text-align: center;
+}
+
+#weatherButton {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+
+}
+
+#weatherButton:hover {
+    background-color: #45a049;
+}
+
+h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #ffffff;
+}
+
+h3 {
+    color: #ffffff;
+}
+
+p {
+    color: #ffffff;
+}
